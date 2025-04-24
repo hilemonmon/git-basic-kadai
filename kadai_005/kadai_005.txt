@@ -1,23 +1,24 @@
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> echo "Hello, world!" > hello_world.txt
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git add .\hello_world.txt
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git status
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
-[main c9c036b] hello_world.txtを追加
+PS C:\Users\a125h\Desktop\git_challenge> echo "Hello, world!" > hello_world.txt
+PS C:\Users\a125h\Desktop\git_challenge> git add .\hello_world.txt
+PS C:\Users\a125h\Desktop\git_challenge> git status
+
+No commits yet
+
+
+PS C:\Users\a125h\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 594612c] hello_world.txtを追加
  1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git add .
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git status
-Changes to be committed:
+ create mode 100644 hello_world.txt
+PS C:\Users\a125h\Desktop\git_challenge> git add .\hello_world.txt
+PS C:\Users\a125h\Desktop\git_challenge> git status
+  (use "git restore --staged <file>..." to unstage)
         modified:   hello_world.txt
 
-error: pathspec 'hello_world.txtを追加' did not match any file(s) known to git
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git commit
-Aborting commit due to empty commit message.
-[main 0379881] hello_world.txtを追加
+PS C:\Users\a125h\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main 1c13ceb] 日本語訳を追記
  1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git commit --amend -m "日本語訳を追加"
-[main 060ab18] 日本語訳を追加
- Date: Thu Apr 24 17:18:50 2025 +0900
- 1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\Users\a125h\Desktop\samurai-terakoya\git_challenge> git log --oneline
-060ab18 (HEAD -> main) 日本語訳を追加
-41de47e hello_world.txtを追加
+PS C:\Users\a125h\Desktop\git_challenge>
+PS C:\Users\a125h\Desktop\git_challenge> git log --oneline
+1c13ceb (HEAD -> main) 日本語訳を追記
+594612c hello_world.txtを追加
+PS C:\Users\a125h\Desktop\git_challenge> 
